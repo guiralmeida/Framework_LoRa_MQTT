@@ -118,8 +118,8 @@ void setup() {
   delay(20);
 
   // Cadastre quantas redes você quiser (SSID, Senha)
-  wifiMulti.addAP("3E Unicamp", "3esquilo123");
-  wifiMulti.addAP("AP-16", "gui09122004@");
+  wifiMulti.addAP("SSID_1", "password_1");
+  wifiMulti.addAP("SSID_2", "password_2");
 
   // O wifiMulti.run() tenta conectar a uma das redes cadastradas
   // Ele retorna WL_CONNECTED quando consegue se conectar com sucesso
