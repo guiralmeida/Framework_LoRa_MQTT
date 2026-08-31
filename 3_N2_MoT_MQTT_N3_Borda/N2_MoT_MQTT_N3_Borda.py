@@ -118,7 +118,7 @@ ID_sensor = 1
 #ID_gateway = input ("Identificação do gateway =")
 ID_gateway = 0
 # ================ Camada MAC DL
-Tempo_entre_pacotes = float(input("Tempo entre pacotes (LRC = 8s | SRC = 1s) = ").replace(",", "."))
+Tempo_entre_pacotes = float(input("Tempo entre pacotes (LRC = 1s | SRC = 8s) = ").replace(",", "."))
 
 # ===== Loop principal: repete pedindo número de medidas =====
 print("\n========== Gateway LoRa - Comunicação MQTT ==========")
